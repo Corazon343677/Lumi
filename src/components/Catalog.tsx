@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { ShoppingBag } from 'lucide-react';
 import { useApp } from '@/i18n';
 import { products, Product } from '@/data';
 
@@ -73,10 +72,21 @@ export default function Catalog() {
                   <span className="text-lg text-neutral-900 dark:text-white font-medium">
                     {p.price.toLocaleString(lang === 'ru' ? 'ru-RU' : 'en-US')} ₽
                   </span>
-                  <button className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 text-sm hover:opacity-80 transition-opacity">
-                    <ShoppingBag size={16} />
-                    {t('catalog_add')}
-                  </button>
+                  
+                  {/* Кнопка-ссылка на Озон */}
+                  <a 
+                    href={(p as any).ozonUrl || "https://ozon.ru"} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 text-sm hover:opacity-80 transition-opacity"
+                  >
+                    {/* Фирменный SVG Ozon */}
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://w3.org">
+                      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 14c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" fill="#005BFF"/>
+                      <circle cx="12" cy="12" r="2" fill="#F91155"/>
+                    </svg>
+                    <span>{t('catalog_add')}</span>
+                  </a>
                 </div>
               </div>
             </div>
