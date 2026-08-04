@@ -6,7 +6,7 @@ export type Lang = 'ru' | 'en';
 type Dict = Record<string, { ru: string; en: string }>;
 
 const dict: Dict = {
-  brand: { ru: 'Lumi', en: 'Lumi' },
+  brand: { ru: 'Lumilace', en: 'Lumilace' },
   tagline: { ru: 'Искусство тонкой нити', en: 'The Art of Fine Thread' },
 
   // Nav
