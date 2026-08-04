@@ -108,19 +108,4 @@ export const products: Product[] = [
       en: 'https://ozon.ru',
     },
   },
-  {
-    id: 7,
-    image: 'https://images.pexels.com/photos/3785762/pexels-photo-3785762.jpeg?auto=compress&cs=tinysrgb&w=800',
-    price: 3800,
-    category: 'accessories',
-    name: { ru: 'Чулки с узором', en: 'Patterned Stockings' },
-    description: {
-      ru: 'Тонкие чулки с кружевной резинкой, ручная вышивка.',
-      en: 'Fine stockings with lace top, hand-embroidered.',
-    },
-    ozonURL: {
-      ru: 'https://ozon.ru',
-      en: 'https://ozon.ru',
-    },
-  },
 ];
