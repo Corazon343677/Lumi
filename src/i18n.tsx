@@ -71,7 +71,7 @@ const dict: Dict = {
   catalog_filter_accessories: { ru: 'Аксессуары', en: 'Accessories' },
 
   // Contact
-  contact_title: { ru: 'Контакты', en: 'Contact Us' },
+  contact_title: { ru: 'Кынтакты', en: 'Contact Us' },
   contact_text: {
     ru: 'Есть вопрос или особый заказ? Напишите нам — ответим в течение дня.',
     en: 'Have a question or a custom order? Write to us — we reply within a day.',
