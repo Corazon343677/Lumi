@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Corazon343677.github.io/Lumi",
+  "homepage": "https://lumilace.ru",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "ship": "npm run deploy && git add . && git commit -m \"site update\" && git push origin main"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",

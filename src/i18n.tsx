@@ -27,8 +27,8 @@ const dict: Dict = {
     en: 'A story of fine thread, woven through centuries',
   },
   hero_history_1: {
-    ru: 'Кружево зародилось в XVI веке как символ статуса. Мастерицы превращали тонкую нить в узоры, ценившиеся наравне с драгоценностями. Эта сделало ажурный материал истинным произведением искусства, олицетворяющим благородство.',
-    en: 'Lace originated in the 16th century as a status symbol, crafted by hand over hundreds of hours. Artisans transformed fine thread into patterns prized on a par with precious gems. This painstaking work turned the openwork fabric into a true work of art, embodying nobility.',
+    ru: 'Кружево зародилось в XVI веке как символ статуса. Мастерицы превращали тонкую нить в узоры, ценившиеся наравне с драгоценностями.',
+    en: 'Lace originated in the 16th century as a symbolic phenomenon. Craftswomen transformed fine thread into patterns valued on a par with precious gems.',
   },
   hero_history_2: {
     ru: 'Мы соединяем старинную эстетику с технологиями нового поколения. Наше кружево — способ прикоснуться к истории и создать по-настоящему изысканное изделие.',
