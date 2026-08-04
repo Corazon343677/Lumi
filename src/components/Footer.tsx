@@ -17,6 +17,19 @@ export default function Footer() {
           © {year} {t('brand')}. {t('footer_rights')}.
         </p>
       </div>
+      <div className="text-center text-[10px] text-gray-400 mt-4">
+        <a 
+        href="https://www.flaticon.com/ru/free-icons/" 
+        title="кружево иконки" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="hover:underline"
+        >
+          Кружево иконки от Magnific - Flaticon
+        </a>
+      </div>
+
+      
     </footer>
   );
 }
