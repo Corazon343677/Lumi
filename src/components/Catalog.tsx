@@ -84,7 +84,7 @@ export default function Catalog() {
                     <img 
                       src="/ozon-icon.png" 
                       alt="OZON" 
-                      className="w-5 h-5 object-contain flex-shrink-0 bg-white rounded-full p-[1px]"
+                      className="w-7 h-7 object-contain flex-shrink-0 bg-white rounded-full p-[1px]"
                     />
                     <span>{t('catalog_add')}</span>
                   </a>
