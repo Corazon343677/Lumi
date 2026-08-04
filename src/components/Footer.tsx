@@ -28,8 +28,6 @@ export default function Footer() {
           Кружево иконки от Magnific - Flaticon
         </a>
       </div>
-
-      
     </footer>
   );
 }
